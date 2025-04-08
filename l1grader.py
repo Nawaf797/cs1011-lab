@@ -119,7 +119,8 @@ def test():
 
         grades.append(grade)
         stud_nums.append(stud_num)
-        
+
+    lab_name = "lab1-444006016"
     return stud_nums,grades,lab_name
 
 if __name__ == "__main__":
