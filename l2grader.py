@@ -22,7 +22,7 @@ def test_part1(alphabetical_order):
         #print(ord_lst)
         if f=='a' and s=='b' and t=='c':
             grade1 += 5
-            print(f'test1 with input {'b','c','a'}.... pass')
+            print("Test1 with input ('b','c','a')..... pass")
         else:
             print(f'test1 with input {'b','c','a'}.... fail')
     except Exception as ex:
